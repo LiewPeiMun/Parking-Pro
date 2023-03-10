@@ -7,18 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9147770C29B4DB6F00880E1C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9147770B29B4DB6F00880E1C /* MapView.swift */; };
+		9147770E29B4DBB600880E1C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9147770D29B4DBB600880E1C /* ContentViewModel.swift */; };
+		9147771029B4E81A00880E1C /* EnterDurationPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9147770F29B4E81A00880E1C /* EnterDurationPark.swift */; };
+		9147773829B5732300880E1C /* MultiPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9147773729B5732300880E1C /* MultiPicker.swift */; };
+		9147773A29B5735500880E1C /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9147773929B5735500880E1C /* Duration.swift */; };
+		9147776A29B5A76300880E1C /* CarPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9147776929B5A76300880E1C /* CarPark.swift */; };
+		9152FD6329B77C6E00E59FAC /* ConfirmationLeaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9152FD6229B77C6E00E59FAC /* ConfirmationLeaveView.swift */; };
 		916EDCAC29AD754A00C90001 /* ParkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916EDCAB29AD754A00C90001 /* ParkingApp.swift */; };
-		916EDCAE29AD754A00C90001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916EDCAD29AD754A00C90001 /* ContentView.swift */; };
+		916EDCAE29AD754A00C90001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916EDCAD29AD754A00C90001 /* HomeView.swift */; };
 		916EDCB029AD754B00C90001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916EDCAF29AD754B00C90001 /* Assets.xcassets */; };
 		916EDCB329AD754B00C90001 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916EDCB229AD754B00C90001 /* Preview Assets.xcassets */; };
+		918CF23C29B6F31500D27CFC /* AddTimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918CF23B29B6F31400D27CFC /* AddTimeButton.swift */; };
+		919826CF29B2FA5200934939 /* ViewTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919826CE29B2FA5200934939 /* ViewTime.swift */; };
+		919826F529B32ABF00934939 /* RoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919826F429B32ABF00934939 /* RoadView.swift */; };
+		91B4D5B529B8D7B60004E503 /* ShakeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4D5B429B8D7B60004E503 /* ShakeAnimation.swift */; };
+		91B5C92229B07073008F4C8D /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5C92129B07073008F4C8D /* HeadingView.swift */; };
+		91B5C92429B070B8008F4C8D /* LongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5C92329B070B8008F4C8D /* LongButton.swift */; };
+		91B5C92629B07558008F4C8D /* FacultyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5C92529B07558008F4C8D /* FacultyView.swift */; };
+		91B5C92829B07746008F4C8D /* CollegeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5C92729B07746008F4C8D /* CollegeView.swift */; };
+		91B5C92A29B0779E008F4C8D /* OthersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5C92929B0779E008F4C8D /* OthersView.swift */; };
+		91B5C92C29B0801F008F4C8D /* BadgesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5C92B29B0801F008F4C8D /* BadgesButton.swift */; };
+		91F19C1B29B1B217007347F7 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F19C1829B1B217007347F7 /* ProfilePage.swift */; };
+		91F19C2729B1BE4C007347F7 /* DoneRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F19C2629B1BE4C007347F7 /* DoneRegistration.swift */; };
+		91F19C2929B1BEB3007347F7 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F19C2829B1BEB3007347F7 /* Registration.swift */; };
+		91F19C2B29B1BEF1007347F7 /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F19C2A29B1BEF1007347F7 /* Guest.swift */; };
+		91F19C2D29B1BF1D007347F7 /* firstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F19C2C29B1BF1D007347F7 /* firstView.swift */; };
+		91F19C2F29B1BF45007347F7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F19C2E29B1BF45007347F7 /* Login.swift */; };
+		91F9026B29B1E0980026653D /* ExtendTimeSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F9026A29B1E0980026653D /* ExtendTimeSuccess.swift */; };
+		91F9026D29B1E0D40026653D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F9026C29B1E0D40026653D /* SplashScreenView.swift */; };
+		91F9026F29B1E16F0026653D /* LeaveNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F9026E29B1E16F0026653D /* LeaveNow.swift */; };
+		91F9027329B2151E0026653D /* NotiForDoubleParkUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F9027229B2151E0026653D /* NotiForDoubleParkUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9147770B29B4DB6F00880E1C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9147770D29B4DBB600880E1C /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		9147770F29B4E81A00880E1C /* EnterDurationPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterDurationPark.swift; sourceTree = "<group>"; };
+		9147773729B5732300880E1C /* MultiPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPicker.swift; sourceTree = "<group>"; };
+		9147773929B5735500880E1C /* Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		9147776929B5A76300880E1C /* CarPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPark.swift; sourceTree = "<group>"; };
+		9152FD6229B77C6E00E59FAC /* ConfirmationLeaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationLeaveView.swift; sourceTree = "<group>"; };
 		916EDCA829AD754A00C90001 /* Parking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		916EDCAB29AD754A00C90001 /* ParkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingApp.swift; sourceTree = "<group>"; };
-		916EDCAD29AD754A00C90001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		916EDCAD29AD754A00C90001 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		916EDCAF29AD754B00C90001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		916EDCB229AD754B00C90001 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		918CF23B29B6F31400D27CFC /* AddTimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTimeButton.swift; sourceTree = "<group>"; };
+		919826CE29B2FA5200934939 /* ViewTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTime.swift; sourceTree = "<group>"; };
+		919826F429B32ABF00934939 /* RoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadView.swift; sourceTree = "<group>"; };
+		91B4D5B429B8D7B60004E503 /* ShakeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimation.swift; sourceTree = "<group>"; };
+		91B5C92129B07073008F4C8D /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		91B5C92329B070B8008F4C8D /* LongButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongButton.swift; sourceTree = "<group>"; };
+		91B5C92529B07558008F4C8D /* FacultyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyView.swift; sourceTree = "<group>"; };
+		91B5C92729B07746008F4C8D /* CollegeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeView.swift; sourceTree = "<group>"; };
+		91B5C92929B0779E008F4C8D /* OthersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersView.swift; sourceTree = "<group>"; };
+		91B5C92B29B0801F008F4C8D /* BadgesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesButton.swift; sourceTree = "<group>"; };
+		91F19C1829B1B217007347F7 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		91F19C2629B1BE4C007347F7 /* DoneRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneRegistration.swift; sourceTree = "<group>"; };
+		91F19C2829B1BEB3007347F7 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		91F19C2A29B1BEF1007347F7 /* Guest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
+		91F19C2C29B1BF1D007347F7 /* firstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstView.swift; sourceTree = "<group>"; };
+		91F19C2E29B1BF45007347F7 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		91F9026A29B1E0980026653D /* ExtendTimeSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendTimeSuccess.swift; sourceTree = "<group>"; };
+		91F9026C29B1E0D40026653D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		91F9026E29B1E16F0026653D /* LeaveNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveNow.swift; sourceTree = "<group>"; };
+		91F9027229B2151E0026653D /* NotiForDoubleParkUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiForDoubleParkUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +89,7 @@
 		916EDC9F29AD754A00C90001 = {
 			isa = PBXGroup;
 			children = (
+				919826F429B32ABF00934939 /* RoadView.swift */,
 				916EDCAA29AD754A00C90001 /* Parking */,
 				916EDCA929AD754A00C90001 /* Products */,
 			);
@@ -52,8 +107,34 @@
 			isa = PBXGroup;
 			children = (
 				916EDCAB29AD754A00C90001 /* ParkingApp.swift */,
-				916EDCAD29AD754A00C90001 /* ContentView.swift */,
+				91F19C2C29B1BF1D007347F7 /* firstView.swift */,
+				91F19C2E29B1BF45007347F7 /* Login.swift */,
+				91F19C2A29B1BEF1007347F7 /* Guest.swift */,
+				91F19C2829B1BEB3007347F7 /* Registration.swift */,
+				91F19C2629B1BE4C007347F7 /* DoneRegistration.swift */,
+				916EDCAD29AD754A00C90001 /* HomeView.swift */,
+				9147770B29B4DB6F00880E1C /* MapView.swift */,
+				9147770D29B4DBB600880E1C /* ContentViewModel.swift */,
+				91F19C1829B1B217007347F7 /* ProfilePage.swift */,
+				91B5C92529B07558008F4C8D /* FacultyView.swift */,
+				91B5C92729B07746008F4C8D /* CollegeView.swift */,
+				91B5C92929B0779E008F4C8D /* OthersView.swift */,
+				9147776929B5A76300880E1C /* CarPark.swift */,
+				9147770F29B4E81A00880E1C /* EnterDurationPark.swift */,
+				919826CE29B2FA5200934939 /* ViewTime.swift */,
+				91F9026A29B1E0980026653D /* ExtendTimeSuccess.swift */,
+				9152FD6229B77C6E00E59FAC /* ConfirmationLeaveView.swift */,
+				91F9026E29B1E16F0026653D /* LeaveNow.swift */,
+				91F9027229B2151E0026653D /* NotiForDoubleParkUser.swift */,
 				916EDCAF29AD754B00C90001 /* Assets.xcassets */,
+				91F9026C29B1E0D40026653D /* SplashScreenView.swift */,
+				91B5C92129B07073008F4C8D /* HeadingView.swift */,
+				91B5C92329B070B8008F4C8D /* LongButton.swift */,
+				91B5C92B29B0801F008F4C8D /* BadgesButton.swift */,
+				9147773929B5735500880E1C /* Duration.swift */,
+				9147773729B5732300880E1C /* MultiPicker.swift */,
+				918CF23B29B6F31400D27CFC /* AddTimeButton.swift */,
+				91B4D5B429B8D7B60004E503 /* ShakeAnimation.swift */,
 				916EDCB129AD754B00C90001 /* Preview Content */,
 			);
 			path = Parking;
@@ -137,8 +218,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				916EDCAE29AD754A00C90001 /* ContentView.swift in Sources */,
+				919826CF29B2FA5200934939 /* ViewTime.swift in Sources */,
+				918CF23C29B6F31500D27CFC /* AddTimeButton.swift in Sources */,
+				919826F529B32ABF00934939 /* RoadView.swift in Sources */,
+				91F9026D29B1E0D40026653D /* SplashScreenView.swift in Sources */,
+				9147770C29B4DB6F00880E1C /* MapView.swift in Sources */,
+				9147771029B4E81A00880E1C /* EnterDurationPark.swift in Sources */,
+				91B5C92A29B0779E008F4C8D /* OthersView.swift in Sources */,
+				916EDCAE29AD754A00C90001 /* HomeView.swift in Sources */,
+				91F9026B29B1E0980026653D /* ExtendTimeSuccess.swift in Sources */,
+				91F19C2929B1BEB3007347F7 /* Registration.swift in Sources */,
+				91F19C2729B1BE4C007347F7 /* DoneRegistration.swift in Sources */,
+				91F19C2D29B1BF1D007347F7 /* firstView.swift in Sources */,
+				91F9027329B2151E0026653D /* NotiForDoubleParkUser.swift in Sources */,
+				9147776A29B5A76300880E1C /* CarPark.swift in Sources */,
+				91B5C92229B07073008F4C8D /* HeadingView.swift in Sources */,
+				9147770E29B4DBB600880E1C /* ContentViewModel.swift in Sources */,
+				91F19C2F29B1BF45007347F7 /* Login.swift in Sources */,
+				91F19C2B29B1BEF1007347F7 /* Guest.swift in Sources */,
 				916EDCAC29AD754A00C90001 /* ParkingApp.swift in Sources */,
+				91B4D5B529B8D7B60004E503 /* ShakeAnimation.swift in Sources */,
+				9147773A29B5735500880E1C /* Duration.swift in Sources */,
+				91F19C1B29B1B217007347F7 /* ProfilePage.swift in Sources */,
+				91B5C92429B070B8008F4C8D /* LongButton.swift in Sources */,
+				91B5C92829B07746008F4C8D /* CollegeView.swift in Sources */,
+				91F9026F29B1E16F0026653D /* LeaveNow.swift in Sources */,
+				91B5C92629B07558008F4C8D /* FacultyView.swift in Sources */,
+				9147773829B5732300880E1C /* MultiPicker.swift in Sources */,
+				91B5C92C29B0801F008F4C8D /* BadgesButton.swift in Sources */,
+				9152FD6329B77C6E00E59FAC /* ConfirmationLeaveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +375,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Parking/Preview Content\"";
+				DEVELOPMENT_TEAM = PDJUVUT7T3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,8 +405,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Parking/Preview Content\"";
+				DEVELOPMENT_TEAM = PDJUVUT7T3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
